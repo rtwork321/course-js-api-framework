@@ -23,7 +23,7 @@ export const config = {
         host: 'http://localhost:3030'
     },
     greetings_dev: {
-        host: 'https://localhost:50556'
+        host: 'http://127.0.0.1:7001'
     },
     greetings_stg: {
         host: 'http://127.0.0.1:7002'
