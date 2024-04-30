@@ -5,8 +5,8 @@ before(async () => {
     await generateTestData()
 })
 
-it('Fetch greeting', () => {
-    describe(`Fetch greeting`, () => {
+describe('Fetch greeting', () => {
+    it('should retrieve greeting', () => {
         getGreetings()
     })
 })
